@@ -5,6 +5,8 @@ import {Album} from "./Album";
 import {Playlist} from "./Playlist";
 import {LocalImporter} from "./LocalImporter";
 import {PlaylistImporter} from "./PlaylistImporter";
+import fs = require("fs");
+
 
 let artist = new Artist("Muse");
 let album = new Album("The 2nd Law", artist, 2012);
